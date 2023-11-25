@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+  <h2>Sign up for rewards!</h2>
+  <form method="get">
+    First name: <input type="text" name="firstname"><br>
+    Last name: <input type="text" name="lastname"><br>
+    User name: <input type="text" name="username"><br>
+    Password: <input type="password" name="password" minlength="8"><br>
+    E-mail: <input type="email" name="email"><br>
+    Birthday: <input type="date" name="birthday"><br>
+    Gender: <br>
+    <!--different choice box, can only choose one-->
+    <input type="radio" name="gender" value="Male">Male<br>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="others">others<br>
+    Pets:<br>
+    <!--can select multiple-->
+    <input type="checkbox" name="cat">Cat<br>
+    <input type="checkbox" name="dog">Dog<br>
+    Cars:<br>
+    <!--pull down box-->
+    <Select name="cars">
+      <option value="Volvo">Volvo</option>
+      <option value="Audi">Audi</option>
+      <option value="Toyota">Toyota</option>
+      <option value="Honda">Honda</option>
+    </Select> <br> <br>
+    <input type="submit" value="Register!">
+    <input type="reset">
+  </form>
+</body>
+</html>
